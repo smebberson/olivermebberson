@@ -8,7 +8,7 @@ class UrlMappings {
 		}
 
 		"/scaffold"(view:"/scaffold")
-		"/"(view:"/index")
+		"/"(controller:"index")
 		"500"(view:'/error')
 	}
 }

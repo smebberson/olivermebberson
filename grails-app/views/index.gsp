@@ -18,6 +18,16 @@
 						<h1>Sayings</h1>
 						<h2>View more</h2>
 					</hgroup>
+					
+					<g:each in="${ sayings }" var="saying" status="i">
+					<article class="saying sixcol<g:if test="${ i == 2 }"> last</g:if>">
+						<div>
+						<h1>${ saying.title }</h1>
+						<time>${ saying.saidOn }</time>
+						<p>${ saying.description }</p>
+						</div>
+					</article>
+					</g:each>
 				
 					<article class="saying sixcol">
 						<div>
