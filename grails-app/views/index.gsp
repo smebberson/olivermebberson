@@ -20,7 +20,7 @@
 					</hgroup>
 					
 					<g:each in="${ sayings }" var="saying" status="i">
-					<article class="saying sixcol<g:if test="${ i == 2 }"> last</g:if>">
+					<article class="saying sixcol<g:if test="${ i == 1 }"> last</g:if>">
 						<div>
 						<h1>${ saying.title }</h1>
 						<time>${ saying.saidOn }</time>
@@ -28,22 +28,6 @@
 						</div>
 					</article>
 					</g:each>
-				
-					<article class="saying sixcol">
-						<div>
-						<h1>Never again Daddy</h1>
-						<time datetime="01-01-1970">01-01-1970</time>
-						<p>This is the description of the saying ;)</p>
-						</div>
-					</article>
-					
-					<article class="saying sixcol last">
-						<div>
-						<h1>Never again Daddy</h1>
-						<time datetime="01-01-1970">01-01-1970</time>
-						<p>This is the description of the saying ;)</p>
-						</div>
-					</article>
 				
 				</section>
 					
