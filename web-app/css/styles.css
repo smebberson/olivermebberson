@@ -81,6 +81,10 @@
 		float: left;
 	}
 	
+	article.saying time {
+		line-height: 32px;
+	}
+	
 	article.saying p, article.saying time {
 		color: #9ae5ff;
 	}
