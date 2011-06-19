@@ -34,8 +34,9 @@
 					<h1>My favourite things</h1>
 					
 					<nav>
-						<li>The Octonauts</li>
-						<li>Peppa Pig</li>
+						<g:each in="${ favourites }" var="favourite">
+							<li>${ favourite.title }</li>
+						</g:each>
 					</nav>
 					
 				</section>
